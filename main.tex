@@ -1,28 +1,33 @@
 
 \documentclass[letterpaper,11pt]{article}
-
 % Choose bibliography style for formatting list of publications
-\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
-\bibliography{papers}
-
+%\usepackage[sorting=ymdnt,bibstyle=authoryear,dashed=false]{biblatex}
+\usepackage[sorting=ymdnt,bibstyle=numeric]{biblatex}
+\addbibresource{bibliography.bib}
+% The following line defines a "bibcheck" called "filtertalks" which checks for "annote = {selected}" in the bib entries of talks. This way, I can easily decide if I want to include all my talks or only a selected number.
+\defbibcheck{filtertalks}{\iffieldequalstr{annotation}{selected}{}{\skipentry}}
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
 \def\theme{MidnightBlue}
+
+% Define a new sorting file (found on Stack Exchange https://tex.stackexchange.com/questions/46868/biblatex-sorting-by-date)
+\input{sorting.tex}
 
 % More predefined colors can be found in 
 % https://en.wikibooks.org/wiki/LaTeX/Colors
 
 \usepackage{simplecv}
+\usepackage{tikz}
+\newcommand{\spacesymbol}{\tikz\draw[black,fill=none] (0,0) circle (.5ex);}
 
-\boldname{Cetin}{Doruk}{D.}
+\boldname{Masroor}{Emad}{E.}
 
 \begin{document}
 
 % Heading
-\headinginline{Doruk Çetin}{
-    Website: \website{dcetin.me} \\ 
-    Email: \email{dcetin@ethz.ch} \\
-    % LinkedIn: \linkedin{doruk-cetin} \\
-    GitHub: \github{dcetin}
+\headinginline{Emad Masroor}{
+    Website: \website{emadmasroor.github.io} \\ 
+    301-3 Turner St NE, Blacksburg VA 24060 {\spacesymbol} \email{emad@vt.edu}
+    % GitHub: \github{emadmasroor}
 }
 
 % \headingphoto{Doruk Çetin}{
@@ -34,18 +39,18 @@
 
 % Page One
 \import{sections/}{education.tex}
-\import{sections/}{experience.tex}
-\import{sections/}{publications.tex}
-
+% 
+\nocite{*}
+\printbibliography[title={Publications},type=article]
+\printbibliography[title={Presentations},type=inproceedings,check=filtertalks]
 \pagebreak
-
-% Page Two
+\import{sections/}{projects.tex}
+\import{sections/}{experience.tex}
+\pagebreak
 \import{sections/}{teaching.tex}
 \sidebyside
     {\import{sections/}{skills.tex}}
-    {\import{sections/}{languages.tex}}
-\import{sections/}{projects.tex}
+    {\import{sections/}{coursework.tex}}
 \import{sections/}{awards.tex}
-\import{sections/}{volunteering.tex}
 
 \end{document}
