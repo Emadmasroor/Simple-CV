@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{ymdnt/global//global/global}
-    \entry{dfd21}{inproceedings}{}
+    \entry{Masroor2021}{article}{}
       \name{author}{2}{}{%
         {{hash=8e649d31cd176cb98878c589a107a1b5}{%
            family={Masroor},
@@ -40,7 +40,51 @@
       \strng{authorfullhash}{0ead6386105b95d2d81dd18886c4463f}
       \field{extraname}{1}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{number}{0}
+      \field{title}{{On the topology of the atmosphere advected by a periodic array of axisymmetric thin-cored vortex rings}}
+      \field{volume}{00}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.0000/S1560354700000012
+      \endverb
+      \verb{eprint}
+      \verb 2112.06105
+      \endverb
+      \verb{file}
+      \verb :home/emad/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Masroor, Stremler - 2021 - On the topology of the atmosphere advected by a periodic array of axisymmetric thin-cored vortex rings.pdf:pdf
+      \endverb
+      \keyw{bifurcations,integrability,streamline topology,vortex rings}
+    \endentry
+    \entry{dfd21}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8e649d31cd176cb98878c589a107a1b5}{%
+           family={Masroor},
+           familyi={M\bibinitperiod},
+           given={Emad},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a991baaa76028a25eeef63179889673c}{%
+           family={Stremler},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{fullhash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{bibnamehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{authorbibnamehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{authornamehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{authorfullhash}{0ead6386105b95d2d81dd18886c4463f}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -70,7 +114,7 @@
       \strng{authornamehash}{6b63c4cdfb11648fe7aab810ee07249e}
       \strng{authorfullhash}{6b63c4cdfb11648fe7aab810ee07249e}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -99,9 +143,9 @@
       \strng{authorbibnamehash}{0ead6386105b95d2d81dd18886c4463f}
       \strng{authornamehash}{0ead6386105b95d2d81dd18886c4463f}
       \strng{authorfullhash}{0ead6386105b95d2d81dd18886c4463f}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -140,7 +184,7 @@
       \strng{authorfullhash}{71801571aae0552933d0ab140a674f59}
       \field{extraname}{1}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -182,9 +226,9 @@
       \strng{authorbibnamehash}{cfd29ffaf05c5aec93c3472b30f7235a}
       \strng{authornamehash}{cfd29ffaf05c5aec93c3472b30f7235a}
       \strng{authorfullhash}{cfd29ffaf05c5aec93c3472b30f7235a}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -222,7 +266,7 @@
       \strng{authornamehash}{23278a8af8a8d5f3d7efeda0d3ee8b83}
       \strng{authorfullhash}{23278a8af8a8d5f3d7efeda0d3ee8b83}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{14697645}
@@ -257,9 +301,9 @@
       \strng{authorbibnamehash}{0ead6386105b95d2d81dd18886c4463f}
       \strng{authornamehash}{0ead6386105b95d2d81dd18886c4463f}
       \strng{authorfullhash}{0ead6386105b95d2d81dd18886c4463f}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -288,9 +332,9 @@
       \strng{authorbibnamehash}{0ead6386105b95d2d81dd18886c4463f}
       \strng{authornamehash}{0ead6386105b95d2d81dd18886c4463f}
       \strng{authorfullhash}{0ead6386105b95d2d81dd18886c4463f}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -326,7 +370,7 @@
       \strng{authorfullhash}{8a85d555750a58e9b65300adfe965895}
       \field{extraname}{1}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -362,7 +406,7 @@
       \strng{authorfullhash}{8a85d555750a58e9b65300adfe965895}
       \field{extraname}{2}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -398,7 +442,7 @@
       \strng{authorfullhash}{71801571aae0552933d0ab140a674f59}
       \field{extraname}{2}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}
@@ -438,7 +482,7 @@
       \strng{authornamehash}{a7c04604568db0f96fb31e9b7177e25a}
       \strng{authorfullhash}{5afd5d01f88b720a140309854cf5c52a}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{selected}

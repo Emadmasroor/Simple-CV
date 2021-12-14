@@ -2,7 +2,7 @@
 \documentclass[letterpaper,11pt]{article}
 % Choose bibliography style for formatting list of publications
 %\usepackage[sorting=ymdnt,bibstyle=authoryear,dashed=false]{biblatex}
-\usepackage[sorting=ymdnt,bibstyle=numeric]{biblatex}
+\usepackage[sorting=ymdnt,bibstyle=numeric,defernumbers=true]{biblatex}
 \addbibresource{bibliography.bib}
 % The following line defines a "bibcheck" called "filtertalks" which checks for "annote = {selected}" in the bib entries of talks. This way, I can easily decide if I want to include all my talks or only a selected number.
 \defbibcheck{filtertalks}{\iffieldequalstr{annotation}{selected}{}{\skipentry}}
@@ -42,7 +42,7 @@
 % 
 \nocite{*}
 \printbibliography[title={Publications},type=article]
-\printbibliography[title={Presentations},type=inproceedings,check=filtertalks]
+\printbibliography[title={Presentations},type=inproceedings,check=filtertalks,resetnumbers=true]
 \pagebreak
 \import{sections/}{projects.tex}
 \import{sections/}{experience.tex}
@@ -52,5 +52,6 @@
     {\import{sections/}{skills.tex}}
     {\import{sections/}{coursework.tex}}
 \import{sections/}{awards.tex}
+\import{sections/}{service.tex}
 
 \end{document}
