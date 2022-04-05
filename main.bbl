@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{ymdnt/global//global/global}
-    \entry{Masroor2022}{article}{}
+    \entry{Masroor2022a}{article}{}
       \name{author}{3}{}{%
         {{hash=8e649d31cd176cb98878c589a107a1b5}{%
            family={Masroor},
@@ -37,6 +37,9 @@
            given={Mark\bibnamedelima A.},
            giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
       \strng{namehash}{8a85d555750a58e9b65300adfe965895}
       \strng{fullhash}{8a85d555750a58e9b65300adfe965895}
       \strng{bibnamehash}{8a85d555750a58e9b65300adfe965895}
@@ -50,12 +53,21 @@
       \field{labeltitlesource}{title}
       \field{issn}{2352-3409}
       \field{journaltitle}{Data in Brief}
-      \field{note}{In press.}
-      \field{title}{Flow visualization data from experiments with an oscillatingcircular cylinder in a gravity-driven soap film}
+      \field{month}{4}
+      \field{title}{{Flow visualization data from experiments with an oscillating circular cylinder in a gravity-driven soap film}}
+      \field{volume}{41}
       \field{year}{2022}
       \true{nocite}
+      \field{pages}{107819}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.DIB.2022.107819
+      \endverb
+      \verb{file}
+      \verb :Users/stremlerlab/Library/Application Support/Mendeley Desktop/Downloaded/Masroor, Yang, Stremler - 2022 - Flow visualization data from experiments with an oscillating circular cylinder in a gravity-driven soap.pdf:pdf
+      \endverb
     \endentry
-    \entry{Masroor2021}{article}{}
+    \entry{Masroor2022}{article}{}
       \name{author}{2}{}{%
         {{hash=8e649d31cd176cb98878c589a107a1b5}{%
            family={Masroor},
@@ -80,22 +92,22 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{month}{12}
-      \field{number}{0}
+      \field{journaltitle}{Regular and Chaotic Dynamics}
+      \field{number}{2}
       \field{title}{{On the topology of the atmosphere advected by a periodic array of axisymmetric thin-cored vortex rings}}
-      \field{volume}{00}
-      \field{year}{2021}
+      \field{volume}{27}
+      \field{year}{2022}
       \true{nocite}
-      \field{pages}{1\bibrangedash 15}
+      \field{pages}{183\bibrangedash 197}
       \range{pages}{15}
       \verb{doi}
-      \verb 10.0000/S1560354700000012
+      \verb 10.1134/S1560354722020046
       \endverb
       \verb{eprint}
       \verb 2112.06105
       \endverb
       \verb{file}
-      \verb :home/emad/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Masroor, Stremler - 2021 - On the topology of the atmosphere advected by a periodic array of axisymmetric thin-cored vortex rings.pdf:pdf
+      \verb :Volumes/GoogleDrive/My Drive/Research/Bibliography/PDFs/Masroor, Stremler/Masroor, Stremler - Regular and Chaotic Dynamics - 2022 - On the topology of the atmosphere advected by a periodic array of axisymmetric.pdf:pdf
       \endverb
       \keyw{bifurcations,integrability,streamline topology,vortex rings}
     \endentry
