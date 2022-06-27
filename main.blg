@@ -1,18 +1,18 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[110] biber:340> INFO - === Wed May 25, 2022, 10:45:46
-[130] Biber.pm:415> INFO - Reading 'main.bcf'
-[242] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[265] Biber.pm:4340> INFO - Processing section 0
-[280] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[282] bibtex.pm:1689> INFO - LaTeX decoding ...
-[306] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
-[366] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Masroor2022a' is not an integer - this will probably not sort properly.
-[426] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Yang2021' is not an integer - this will probably not sort properly.
-[502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[502] Biber.pm:4168> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
-[502] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[518] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[529] bbl.pm:757> INFO - Output to main.bbl
-[529] Biber.pm:128> INFO - WARNINGS: 2
+[85] biber-darwin:340> INFO - === Mon Jun 27, 2022, 16:14:06
+[100] Biber.pm:415> INFO - Reading 'main.bcf'
+[203] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[217] Biber.pm:4340> INFO - Processing section 0
+[228] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[238] bibtex.pm:1689> INFO - LaTeX decoding ...
+[258] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
+[298] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Yang2021' is not an integer - this will probably not sort properly.
+[307] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Masroor2022a' is not an integer - this will probably not sort properly.
+[380] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[380] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[380] Biber.pm:4168> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
+[381] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[391] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[399] bbl.pm:757> INFO - Output to main.bbl
+[399] Biber.pm:128> INFO - WARNINGS: 2
