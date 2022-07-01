@@ -19,6 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{ymdnt/global//global/global}
+    \entry{emsymp22}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=8e649d31cd176cb98878c589a107a1b5}{%
+           family={Masroor},
+           familyi={M\bibinitperiod},
+           given={Emad},
+           giveni={E\bibinitperiod}}}%
+        {{hash=56f4cb654db4e7a93d6778aa104520a3}{%
+           family={Nayak},
+           familyi={N\bibinitperiod},
+           given={Anshul},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c85b4bc0a7013a37cabbbfe4d867261c}{%
+           family={Pendar},
+           familyi={P\bibinitperiod},
+           given={Hodjat},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f23cf01f11f48c5338687851f1fb6155}
+      \strng{fullhash}{f23cf01f11f48c5338687851f1fb6155}
+      \strng{bibnamehash}{f23cf01f11f48c5338687851f1fb6155}
+      \strng{authorbibnamehash}{f23cf01f11f48c5338687851f1fb6155}
+      \strng{authornamehash}{f23cf01f11f48c5338687851f1fb6155}
+      \strng{authorfullhash}{f23cf01f11f48c5338687851f1fb6155}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{selected}
+      \field{month}{4}
+      \field{note}{\emph{2nd annual Engineering Mechanics Symposium, Blacksburg VA}}
+      \field{title}{A computationally efficient method for modeling the dynamics of swimming or flying flexible bodies in high-Re flows}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
     \entry{Masroor2022a}{article}{}
       \name{author}{3}{}{%
         {{hash=8e649d31cd176cb98878c589a107a1b5}{%
@@ -257,10 +292,10 @@
     \endentry
     \entry{emsymp21}{inproceedings}{}
       \name{author}{2}{}{%
-        {{hash=6aea23696397de88092d8fa6440622ac}{%
+        {{hash=8e649d31cd176cb98878c589a107a1b5}{%
            family={Masroor},
            familyi={M\bibinitperiod},
-           given={Emadi},
+           given={Emad},
            giveni={E\bibinitperiod}}}%
         {{hash=a991baaa76028a25eeef63179889673c}{%
            family={Stremler},
@@ -268,12 +303,12 @@
            given={Mark\bibnamedelima A.},
            giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{cfd29ffaf05c5aec93c3472b30f7235a}
-      \strng{fullhash}{cfd29ffaf05c5aec93c3472b30f7235a}
-      \strng{bibnamehash}{cfd29ffaf05c5aec93c3472b30f7235a}
-      \strng{authorbibnamehash}{cfd29ffaf05c5aec93c3472b30f7235a}
-      \strng{authornamehash}{cfd29ffaf05c5aec93c3472b30f7235a}
-      \strng{authorfullhash}{cfd29ffaf05c5aec93c3472b30f7235a}
+      \strng{namehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{fullhash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{bibnamehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{authorbibnamehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{authornamehash}{0ead6386105b95d2d81dd18886c4463f}
+      \strng{authorfullhash}{0ead6386105b95d2d81dd18886c4463f}
       \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
